@@ -46,27 +46,27 @@ document.getElementById("dangNhap").onclick = function () {
 // Bước 3: xuất kết quả
 
 document.getElementById("btnTinh").onclick = function () {
-  var soNguyen1 = +document.getElementById("soNguyen1").value;
-  var soNguyen2 = +document.getElementById("soNguyen2").value;
-  var soNguyen3 = +document.getElementById("soNguyen3").value;
+  var soNguyen1 = +document.getElementById("soNguyen11").value;
+  var soNguyen2 = +document.getElementById("soNguyen22").value;
+  var soNguyen3 = +document.getElementById("soNguyen33").value;
 
   var ketQua3;
   var chan = 0;
   var le = 0;
 
-  if (soNguyen1 % 2 == 0) {
+  if (soNguyen1 % 2 === 0) {
     chan += 1;
   } else {
     le += 1;
   }
 
-  if (soNguyen2 % 2 == 0) {
+  if (soNguyen2 % 2 === 0) {
     chan += 1;
   } else {
     le += 1;
   }
 
-  if (soNguyen3 % 2 == 0) {
+  if (soNguyen3 % 2 === 0) {
     chan += 1;
   } else {
     le += 1;
