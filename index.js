@@ -27,8 +27,8 @@ document.getElementById("dangNhap").onclick = function () {
     case "father":
       ketQua = "Hello father! " + ten;
       break;
-    case "mother":
-      ketQua = "Hello mother! " + ten;
+    case "mom":
+      ketQua = "Hello mom! " + ten;
       break;
     case "brother":
       ketQua = "Hello brother! " + ten;
